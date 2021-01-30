@@ -1,0 +1,26 @@
+@import "global";
+@import "variables";
+
+.launch-timer {
+    display: flex;
+    .each-unit {
+        margin: 0 10px;
+        > * {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__value {
+            width: 100px;
+            height: 100px;
+            font-size: xxx-large;
+            border-radius: 6px;
+            color: $primary-color-red;
+            background-color: $neutral-color-dark-desaturated-blue;
+            box-shadow: inset 1px solid;
+        }
+        &__name {
+            color: $neutral-color-dark-desaturated-blue;
+        }
+    }
+}

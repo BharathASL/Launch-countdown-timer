@@ -1,8 +1,12 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGMA,OAAO,CAAC,kFAAI,CAAZ,OAAO,CAAC,kFAAI,CDLZ,AAAA,CAAC,AAAC,CACE,WAAW,CCKD,cAAc,CAAE,UAAU,CDJvC,ADAD,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CAqBhB,AAtBD,AAEI,aAFS,CAET,UAAU,AAAC,CACP,MAAM,CAAE,MAAM,CAkBjB,AArBL,AAIQ,aAJK,CAET,UAAU,CAEJ,CAAC,AAAC,CACA,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,MAAM,CAC1B,AART,AASQ,aATK,CASJ,iBAAO,AAAC,CACL,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,SAAS,CAAE,SAAS,CACpB,aAAa,CAAE,GAAG,CAClB,KAAK,CEhBG,OAAkB,CFiB1B,gBAAgB,CEfU,OAAkB,CFgB5C,UAAU,CAAE,eAAe,CAC9B,AAjBT,AAkBQ,aAlBK,CAkBJ,gBAAM,AAAC,CACJ,KAAK,CEnBqB,OAAkB,CFoB/C",
     "sources": [
-        "../scss/styles.scss"
+        "../scss/styles.scss",
+        "../scss/_timer.scss",
+        "../scss/_global.scss",
+        "../scss/_variables.scss",
+        "../scss/_variables.scss"
     ],
     "names": [],
     "file": "styles.css"
