@@ -11,13 +11,39 @@
             justify-content: center;
         }
         &__value {
-            width: 100px;
-            height: 100px;
-            font-size: xxx-large;
+            width: 140px;
+            height: 140px;
+            font-size: 56px;
             border-radius: 6px;
             color: $primary-color-red;
             background-color: $neutral-color-dark-desaturated-blue;
             box-shadow: inset 1px solid;
+            position: relative;
+            overflow: hidden;
+            box-shadow: inset 0px 70px 70px -70px #000000c4, inset 0px -70px 70px -70px #ffffff40, 0 9px 0.5px -0.5px $neutral-color-very-dark-mostly-black-blue;
+            &::before,
+            &::after,
+            span::before,
+            span::after {
+                content: "";
+                position: absolute;
+            }
+            &::before {
+                background-color: black;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                left: -6px;
+                overflow: hidden;
+                box-shadow: 140px 0px black;
+            }
+            &::after {
+                top: 69px;
+                height: 1px;
+                width: 100%;
+                background: #00000024;
+                box-shadow: 0px 1px 1px 0px #ffffff3d;
+            }
         }
         &__name {
             color: $neutral-color-dark-desaturated-blue;
